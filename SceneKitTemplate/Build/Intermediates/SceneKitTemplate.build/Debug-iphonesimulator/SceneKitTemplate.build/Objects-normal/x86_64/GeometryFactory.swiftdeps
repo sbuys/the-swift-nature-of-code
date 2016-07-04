@@ -1,0 +1,414 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GeometryType"
+- "GeometryFactory"
+provides-nominal:
+- "O16SceneKitTemplate12GeometryType"
+- "C16SceneKitTemplate15GeometryFactory"
+provides-member:
+- ["O16SceneKitTemplate12GeometryType", ""]
+- ["C16SceneKitTemplate15GeometryFactory", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "~="
+- "SCNGeometry"
+- "StringLiteralType"
+- "SCNSphere"
+- "CGFloat"
+- "String"
+- "SCNBox"
+- "Vector3"
+- "Geometry"
+- "GeometryType"
+- "GeometryFactory"
+- !private "!="
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Geometry"]
+- !private ["Ps9AnyObject", "SCNBox"]
+- !private ["Ps9AnyObject", "SCNSphere"]
+- !private ["Ps9AnyObject", "boxGeometry"]
+- !private ["Ps9AnyObject", "chamferRadius"]
+- !private ["Ps9AnyObject", "geometry"]
+- !private ["Ps9AnyObject", "height"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "length"]
+- !private ["Ps9AnyObject", "node"]
+- !private ["Ps9AnyObject", "shapeForType"]
+- !private ["Ps9AnyObject", "sphereGeometry"]
+- !private ["Ps9AnyObject", "updateType"]
+- !private ["Ps9AnyObject", "width"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps11CVarArgType", "chamferRadius"]
+- !private ["Ps11CVarArgType", "geometry"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "height"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "length"]
+- !private ["Ps11CVarArgType", "width"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "chamferRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "geometry"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "length"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "chamferRadius"]
+- !private ["Ps23CustomStringConvertible", "geometry"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "height"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "length"]
+- !private ["Ps23CustomStringConvertible", "width"]
+- !private ["C16SceneKitTemplate6Entity", "init"]
+- !private ["C16SceneKitTemplate6Entity", "node"]
+- !private ["C16SceneKitTemplate6Entity", "updateType"]
+- !private ["P16SceneKitTemplate29EntityModelControllerDelegate", "init"]
+- !private ["P16SceneKitTemplate29EntityModelControllerDelegate", "node"]
+- !private ["P16SceneKitTemplate29EntityModelControllerDelegate", "updateType"]
+- ["Ps9Equatable", "Box"]
+- ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "Sphere"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "chamferRadius"]
+- !private ["Ps9Equatable", "geometry"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "length"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["C16SceneKitTemplate8Geometry", "init"]
+- !private ["C16SceneKitTemplate8Geometry", "node"]
+- !private ["C16SceneKitTemplate8Geometry", "updateType"]
+- ["C16SceneKitTemplate15GeometryFactory", "CGFloat"]
+- ["C16SceneKitTemplate15GeometryFactory", "Geometry"]
+- ["C16SceneKitTemplate15GeometryFactory", "GeometryType"]
+- ["C16SceneKitTemplate15GeometryFactory", "SCNBox"]
+- ["C16SceneKitTemplate15GeometryFactory", "SCNGeometry"]
+- ["C16SceneKitTemplate15GeometryFactory", "SCNSphere"]
+- ["C16SceneKitTemplate15GeometryFactory", "Vector3"]
+- ["C16SceneKitTemplate15GeometryFactory", "boxGeometry"]
+- ["C16SceneKitTemplate15GeometryFactory", "customizeBox"]
+- ["C16SceneKitTemplate15GeometryFactory", "deinit"]
+- ["C16SceneKitTemplate15GeometryFactory", "geometryForType"]
+- ["C16SceneKitTemplate15GeometryFactory", "init"]
+- ["C16SceneKitTemplate15GeometryFactory", "shapeForType"]
+- ["C16SceneKitTemplate15GeometryFactory", "sphereGeometry"]
+- ["O16SceneKitTemplate12GeometryType", "Box"]
+- ["O16SceneKitTemplate12GeometryType", "RawValue"]
+- ["O16SceneKitTemplate12GeometryType", "Sphere"]
+- ["O16SceneKitTemplate12GeometryType", "deinit"]
+- ["O16SceneKitTemplate12GeometryType", "hashValue"]
+- ["O16SceneKitTemplate12GeometryType", "init"]
+- ["O16SceneKitTemplate12GeometryType", "rawValue"]
+- ["Ps8Hashable", "Box"]
+- ["Ps8Hashable", "RawValue"]
+- ["Ps8Hashable", "Sphere"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "chamferRadius"]
+- !private ["Ps8Hashable", "geometry"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "height"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "length"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "width"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["PSo8NSCoding", "chamferRadius"]
+- !private ["PSo8NSCoding", "geometry"]
+- !private ["PSo8NSCoding", "height"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo8NSCoding", "width"]
+- !private ["PSo9NSCopying", "chamferRadius"]
+- !private ["PSo9NSCopying", "geometry"]
+- !private ["PSo9NSCopying", "height"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "width"]
+- !private ["CSo8NSObject", "chamferRadius"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "geometry"]
+- !private ["CSo8NSObject", "height"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "width"]
+- !private ["PSo16NSObjectProtocol", "chamferRadius"]
+- !private ["PSo16NSObjectProtocol", "geometry"]
+- !private ["PSo16NSObjectProtocol", "height"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "width"]
+- !private ["PSo14NSSecureCoding", "chamferRadius"]
+- !private ["PSo14NSSecureCoding", "geometry"]
+- !private ["PSo14NSSecureCoding", "height"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["PSo14NSSecureCoding", "width"]
+- !private ["CSo8NSString", "deinit"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "Box"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "Sphere"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["PSo13SCNActionable", "geometry"]
+- !private ["PSo13SCNAnimatable", "chamferRadius"]
+- !private ["PSo13SCNAnimatable", "geometry"]
+- !private ["PSo13SCNAnimatable", "height"]
+- !private ["PSo13SCNAnimatable", "init"]
+- !private ["PSo13SCNAnimatable", "length"]
+- !private ["PSo13SCNAnimatable", "width"]
+- !private ["PSo17SCNBoundingVolume", "chamferRadius"]
+- !private ["PSo17SCNBoundingVolume", "geometry"]
+- !private ["PSo17SCNBoundingVolume", "height"]
+- !private ["PSo17SCNBoundingVolume", "init"]
+- !private ["PSo17SCNBoundingVolume", "length"]
+- !private ["PSo17SCNBoundingVolume", "width"]
+- !private ["CSo6SCNBox", "chamferRadius"]
+- !private ["CSo6SCNBox", "height"]
+- !private ["CSo6SCNBox", "init"]
+- !private ["CSo6SCNBox", "length"]
+- !private ["CSo6SCNBox", "width"]
+- !private ["CSo11SCNGeometry", "chamferRadius"]
+- !private ["CSo11SCNGeometry", "deinit"]
+- !private ["CSo11SCNGeometry", "height"]
+- !private ["CSo11SCNGeometry", "init"]
+- !private ["CSo11SCNGeometry", "length"]
+- !private ["CSo11SCNGeometry", "width"]
+- !private ["CSo7SCNNode", "geometry"]
+- !private ["PSo11SCNShadable", "chamferRadius"]
+- !private ["PSo11SCNShadable", "height"]
+- !private ["PSo11SCNShadable", "init"]
+- !private ["PSo11SCNShadable", "length"]
+- !private ["PSo11SCNShadable", "width"]
+- !private ["CSo9SCNSphere", "init"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["V16SceneKitTemplate7Vector3", "x"]
+- !private ["V16SceneKitTemplate7Vector3", "y"]
+- !private ["V16SceneKitTemplate7Vector3", "z"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "C16SceneKitTemplate6Entity"
+- !private "P16SceneKitTemplate29EntityModelControllerDelegate"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "C16SceneKitTemplate8Geometry"
+- "C16SceneKitTemplate15GeometryFactory"
+- "O16SceneKitTemplate12GeometryType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "PSo13SCNActionable"
+- !private "PSo13SCNAnimatable"
+- !private "PSo17SCNBoundingVolume"
+- !private "CSo6SCNBox"
+- !private "CSo11SCNGeometry"
+- !private "CSo7SCNNode"
+- !private "PSo11SCNShadable"
+- !private "CSo9SCNSphere"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "SS"
+- !private "V16SceneKitTemplate7Vector3"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/voxels/Documents/Scrap/Aiko_Swift/Aiko/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/Firebase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/ColorUtils/ColorUtils.framework/Headers/ColorUtils.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/ColorUtils/ColorUtils.framework/Headers/ColorUtils-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/ColorUtils/ColorUtils.framework/Modules/module.modulemap"
+interface-hash: "9278d19bbb0ed98f5daa184747742481"

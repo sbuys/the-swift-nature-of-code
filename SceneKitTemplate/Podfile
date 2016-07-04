@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SceneKitTemplate' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+pod 'Firebase'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'FBSDKLoginKit', '~> 4.12'
+pod 'FBSDKCoreKit', '~> 4.12'
+pod 'FBSDKShareKit', '~> 4.12'
+pod 'Reachability', '~> 3.2'
+pod 'AFNetworking', '~> 3.1'
+pod 'ColorUtils', '~> 1.1'
+
+  # Pods for SceneKitTemplate
+
+end

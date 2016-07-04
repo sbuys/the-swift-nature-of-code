@@ -1,0 +1,323 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo17UIAlertController", ""]
+- ["CSo17UIAlertController", "show"]
+- ["CSo17UIAlertController", "present"]
+provides-dynamic-lookup:
+- "show"
+- "present"
+depends-top-level:
+- !private "UINavigationController"
+- !private "UIViewController"
+- "UIAlertController"
+- "Void"
+- !private "UIApplication"
+- !private "BooleanLiteralType"
+- "Bool"
+depends-member:
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "keyWindow"]
+- ["Ps9AnyObject", "present"]
+- ["Ps9AnyObject", "presentFromController"]
+- !private ["Ps9AnyObject", "presentViewController"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- ["Ps9AnyObject", "show"]
+- !private ["Ps9AnyObject", "visibleViewController"]
+- !private ["Ps11CVarArgType", "UIApplication"]
+- !private ["Ps11CVarArgType", "keyWindow"]
+- ["Ps11CVarArgType", "present"]
+- ["Ps11CVarArgType", "presentFromController"]
+- !private ["Ps11CVarArgType", "presentViewController"]
+- !private ["Ps11CVarArgType", "rootViewController"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- ["Ps11CVarArgType", "show"]
+- !private ["Ps11CVarArgType", "visibleViewController"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "keyWindow"]
+- ["Ps28CustomDebugStringConvertible", "present"]
+- ["Ps28CustomDebugStringConvertible", "presentFromController"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- ["Ps28CustomDebugStringConvertible", "show"]
+- !private ["Ps28CustomDebugStringConvertible", "visibleViewController"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "keyWindow"]
+- ["Ps23CustomStringConvertible", "present"]
+- ["Ps23CustomStringConvertible", "presentFromController"]
+- !private ["Ps23CustomStringConvertible", "presentViewController"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- ["Ps23CustomStringConvertible", "show"]
+- !private ["Ps23CustomStringConvertible", "visibleViewController"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "keyWindow"]
+- ["Ps9Equatable", "present"]
+- ["Ps9Equatable", "presentFromController"]
+- !private ["Ps9Equatable", "presentViewController"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- ["Ps9Equatable", "show"]
+- !private ["Ps9Equatable", "visibleViewController"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "keyWindow"]
+- ["Ps8Hashable", "present"]
+- ["Ps8Hashable", "presentFromController"]
+- !private ["Ps8Hashable", "presentViewController"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- ["Ps8Hashable", "show"]
+- !private ["Ps8Hashable", "visibleViewController"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- ["PSo8NSCoding", "present"]
+- ["PSo8NSCoding", "presentFromController"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- ["PSo8NSCoding", "show"]
+- !private ["PSo8NSCoding", "visibleViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- ["PSo26NSExtensionRequestHandling", "present"]
+- ["PSo26NSExtensionRequestHandling", "presentFromController"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- ["PSo26NSExtensionRequestHandling", "show"]
+- !private ["PSo26NSExtensionRequestHandling", "visibleViewController"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "UINavigationController"]
+- !private ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "keyWindow"]
+- ["CSo8NSObject", "present"]
+- ["CSo8NSObject", "presentFromController"]
+- !private ["CSo8NSObject", "presentViewController"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- ["CSo8NSObject", "show"]
+- !private ["CSo8NSObject", "visibleViewController"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "keyWindow"]
+- ["PSo16NSObjectProtocol", "present"]
+- ["PSo16NSObjectProtocol", "presentFromController"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- ["PSo16NSObjectProtocol", "show"]
+- !private ["PSo16NSObjectProtocol", "visibleViewController"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- ["CSo17UIAlertController", "Bool"]
+- !private ["CSo17UIAlertController", "UIApplication"]
+- !private ["CSo17UIAlertController", "UINavigationController"]
+- !private ["CSo17UIAlertController", "UIViewController"]
+- ["CSo17UIAlertController", "Void"]
+- ["CSo17UIAlertController", "present"]
+- !private ["CSo17UIAlertController", "presentFromController"]
+- ["CSo17UIAlertController", "show"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- ["PSo21UIAppearanceContainer", "present"]
+- ["PSo21UIAppearanceContainer", "presentFromController"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- ["PSo21UIAppearanceContainer", "show"]
+- !private ["PSo21UIAppearanceContainer", "visibleViewController"]
+- !private ["CSo13UIApplication", "keyWindow"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- ["PSo18UIContentContainer", "present"]
+- ["PSo18UIContentContainer", "presentFromController"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- ["PSo18UIContentContainer", "show"]
+- !private ["PSo18UIContentContainer", "visibleViewController"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- ["PSo18UIFocusEnvironment", "present"]
+- ["PSo18UIFocusEnvironment", "presentFromController"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- ["PSo18UIFocusEnvironment", "show"]
+- !private ["PSo18UIFocusEnvironment", "visibleViewController"]
+- !private ["CSo22UINavigationController", "visibleViewController"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- !private ["CSo11UIResponder", "UINavigationController"]
+- !private ["CSo11UIResponder", "UIViewController"]
+- ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "keyWindow"]
+- ["CSo11UIResponder", "present"]
+- ["CSo11UIResponder", "presentFromController"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- ["CSo11UIResponder", "show"]
+- !private ["CSo11UIResponder", "visibleViewController"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- ["PSo16UIStateRestoring", "present"]
+- ["PSo16UIStateRestoring", "presentFromController"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- ["PSo16UIStateRestoring", "show"]
+- !private ["PSo16UIStateRestoring", "visibleViewController"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- ["PSo18UITraitEnvironment", "present"]
+- ["PSo18UITraitEnvironment", "presentFromController"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- ["PSo18UITraitEnvironment", "show"]
+- !private ["PSo18UITraitEnvironment", "visibleViewController"]
+- !private ["CSo6UIView", "rootViewController"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- !private ["CSo16UIViewController", "UINavigationController"]
+- !private ["CSo16UIViewController", "UIViewController"]
+- ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "present"]
+- ["CSo16UIViewController", "presentFromController"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- ["CSo16UIViewController", "show"]
+- !private ["CSo16UIViewController", "visibleViewController"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "rootViewController"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo17UIAlertController"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/Firebase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "162c849e471479d43556edf176b50f94"

@@ -1,0 +1,491 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MotionType"
+- "MotionLibrary"
+provides-nominal:
+- "O16SceneKitTemplate10MotionType"
+- "C16SceneKitTemplate13MotionLibrary"
+provides-member:
+- ["O16SceneKitTemplate10MotionType", ""]
+- ["C16SceneKitTemplate13MotionLibrary", ""]
+- ["C16SceneKitTemplate13MotionLibrary", "moveInDirection"]
+- ["C16SceneKitTemplate13MotionLibrary", "loopedActionWithParameters"]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSTimeInterval"
+- "MotionType"
+- !private "!="
+- "SCNVector3"
+- "ActionParamsMove"
+- "MotionLibrary"
+- "=="
+- "SCNAction"
+- !private "CGFloat"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "randomIntervalBetween"]
+- !private ["V16SceneKitTemplate16ActionParamsMove", "durationMaximum"]
+- !private ["V16SceneKitTemplate16ActionParamsMove", "durationMinimum"]
+- !private ["V16SceneKitTemplate16ActionParamsMove", "speed"]
+- !private ["V16SceneKitTemplate16ActionParamsMove", "vector"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "MotionLibrary"]
+- !private ["Ps9AnyObject", "NSTimeInterval"]
+- !private ["Ps9AnyObject", "SCNAction"]
+- !private ["Ps9AnyObject", "moveByX"]
+- !private ["Ps9AnyObject", "moveInDirection"]
+- !private ["Ps9AnyObject", "repeatActionForever"]
+- !private ["Ps9AnyObject", "sequence"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerate"]
+- !private ["Sa", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "enumerate"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "moveByX"]
+- !private ["Ps11CVarArgType", "randomIntervalBetween"]
+- !private ["Ps11CVarArgType", "repeatActionForever"]
+- !private ["Ps11CVarArgType", "sequence"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "enumerate"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "randomIntervalBetween"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "moveByX"]
+- !private ["Ps28CustomDebugStringConvertible", "randomIntervalBetween"]
+- !private ["Ps28CustomDebugStringConvertible", "repeatActionForever"]
+- !private ["Ps28CustomDebugStringConvertible", "sequence"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "enumerate"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "moveByX"]
+- !private ["Ps23CustomStringConvertible", "randomIntervalBetween"]
+- !private ["Ps23CustomStringConvertible", "repeatActionForever"]
+- !private ["Ps23CustomStringConvertible", "sequence"]
+- !private ["Sd", "randomIntervalBetween"]
+- !private ["Vs18EnumerateGenerator", "Element"]
+- !private ["Vs17EnumerateSequence", "Generator"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "moveByX"]
+- !private ["Ps9Equatable", "randomIntervalBetween"]
+- !private ["Ps9Equatable", "repeatActionForever"]
+- !private ["Ps9Equatable", "sequence"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "randomIntervalBetween"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps17FloatingPointType", "randomIntervalBetween"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "moveByX"]
+- !private ["Ps8Hashable", "randomIntervalBetween"]
+- !private ["Ps8Hashable", "repeatActionForever"]
+- !private ["Ps8Hashable", "sequence"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "enumerate"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "randomIntervalBetween"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- ["C16SceneKitTemplate13MotionLibrary", "ActionParamsMove"]
+- !private ["C16SceneKitTemplate13MotionLibrary", "CGFloat"]
+- !private ["C16SceneKitTemplate13MotionLibrary", "MotionLibrary"]
+- ["C16SceneKitTemplate13MotionLibrary", "NSTimeInterval"]
+- ["C16SceneKitTemplate13MotionLibrary", "SCNAction"]
+- ["C16SceneKitTemplate13MotionLibrary", "SCNVector3"]
+- ["C16SceneKitTemplate13MotionLibrary", "deinit"]
+- ["C16SceneKitTemplate13MotionLibrary", "init"]
+- ["C16SceneKitTemplate13MotionLibrary", "loopedActionWithParameters"]
+- ["C16SceneKitTemplate13MotionLibrary", "moveInDirection"]
+- ["O16SceneKitTemplate10MotionType", "FloatInPlace"]
+- ["O16SceneKitTemplate10MotionType", "deinit"]
+- ["O16SceneKitTemplate10MotionType", "hashValue"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "enumerate"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "enumerate"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "enumerate"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["PSo8NSCoding", "moveByX"]
+- !private ["PSo8NSCoding", "repeatActionForever"]
+- !private ["PSo8NSCoding", "sequence"]
+- !private ["PSo9NSCopying", "moveByX"]
+- !private ["PSo9NSCopying", "repeatActionForever"]
+- !private ["PSo9NSCopying", "sequence"]
+- !private ["CSo8NSObject", "moveByX"]
+- !private ["CSo8NSObject", "repeatActionForever"]
+- !private ["CSo8NSObject", "sequence"]
+- !private ["PSo16NSObjectProtocol", "moveByX"]
+- !private ["PSo16NSObjectProtocol", "repeatActionForever"]
+- !private ["PSo16NSObjectProtocol", "sequence"]
+- !private ["PSo14NSSecureCoding", "moveByX"]
+- !private ["PSo14NSSecureCoding", "repeatActionForever"]
+- !private ["PSo14NSSecureCoding", "sequence"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "enumerate"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["CSo9SCNAction", "moveByX"]
+- !private ["CSo9SCNAction", "repeatActionForever"]
+- !private ["CSo9SCNAction", "sequence"]
+- !private ["VSC10SCNVector3", "x"]
+- !private ["VSC10SCNVector3", "y"]
+- !private ["VSC10SCNVector3", "z"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "enumerate"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps16SignedNumberType", "randomIntervalBetween"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "randomIntervalBetween"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "enumerate"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "randomIntervalBetween"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "randomIntervalBetween"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps19_CVarArgAlignedType", "randomIntervalBetween"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "randomIntervalBetween"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "enumerate"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "enumerate"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "randomIntervalBetween"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "enumerate"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "randomIntervalBetween"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "V16SceneKitTemplate16ActionParamsMove"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Vs18EnumerateGenerator"
+- !private "Vs17EnumerateSequence"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- "C16SceneKitTemplate13MotionLibrary"
+- "O16SceneKitTemplate10MotionType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "CSo9SCNAction"
+- !private "VSC10SCNVector3"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/voxels/Documents/Scrap/Aiko_Swift/Aiko/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/Firebase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "e9ec41b4fab3fefd71848b701240ae1b"

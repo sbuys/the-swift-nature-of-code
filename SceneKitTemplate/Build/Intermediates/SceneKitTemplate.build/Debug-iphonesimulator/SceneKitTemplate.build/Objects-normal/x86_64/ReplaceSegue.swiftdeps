@@ -1,0 +1,377 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReplaceSegue"
+provides-nominal:
+- "C16SceneKitTemplate12ReplaceSegue"
+provides-member:
+- ["C16SceneKitTemplate12ReplaceSegue", ""]
+provides-dynamic-lookup:
+- "perform"
+depends-top-level:
+- !private "UIViewAnimationOptions"
+- "UIStoryboardSegue"
+- !private "UIViewController"
+- !private "Bool"
+- "ReplaceSegue"
+depends-member:
+- !private ["Ps9AnyObject", "UIViewAnimationOptions"]
+- !private ["Ps9AnyObject", "addChildViewController"]
+- !private ["Ps9AnyObject", "destinationViewController"]
+- !private ["Ps9AnyObject", "didMoveToParentViewController"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "parentViewController"]
+- ["Ps9AnyObject", "perform"]
+- !private ["Ps9AnyObject", "removeFromParentViewController"]
+- !private ["Ps9AnyObject", "sourceViewController"]
+- !private ["Ps9AnyObject", "transitionFromViewController"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "willMoveToParentViewController"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "TransitionCrossDissolve"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "UIViewAnimationOptions"]
+- !private ["Ps11CVarArgType", "addChildViewController"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
+- !private ["Ps11CVarArgType", "didMoveToParentViewController"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "parentViewController"]
+- ["Ps11CVarArgType", "perform"]
+- !private ["Ps11CVarArgType", "removeFromParentViewController"]
+- !private ["Ps11CVarArgType", "sourceViewController"]
+- !private ["Ps11CVarArgType", "transitionFromViewController"]
+- !private ["Ps11CVarArgType", "view"]
+- !private ["Ps11CVarArgType", "willMoveToParentViewController"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIViewAnimationOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "addChildViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "didMoveToParentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "parentViewController"]
+- ["Ps28CustomDebugStringConvertible", "perform"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromParentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "transitionFromViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "willMoveToParentViewController"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIViewAnimationOptions"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addChildViewController"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
+- !private ["Ps23CustomStringConvertible", "didMoveToParentViewController"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "parentViewController"]
+- ["Ps23CustomStringConvertible", "perform"]
+- !private ["Ps23CustomStringConvertible", "removeFromParentViewController"]
+- !private ["Ps23CustomStringConvertible", "sourceViewController"]
+- !private ["Ps23CustomStringConvertible", "transitionFromViewController"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "willMoveToParentViewController"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "TransitionCrossDissolve"]
+- !private ["Ps9Equatable", "UIViewAnimationOptions"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addChildViewController"]
+- !private ["Ps9Equatable", "destinationViewController"]
+- !private ["Ps9Equatable", "didMoveToParentViewController"]
+- !private ["Ps9Equatable", "frame"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "parentViewController"]
+- ["Ps9Equatable", "perform"]
+- !private ["Ps9Equatable", "removeFromParentViewController"]
+- !private ["Ps9Equatable", "sourceViewController"]
+- !private ["Ps9Equatable", "transitionFromViewController"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "willMoveToParentViewController"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "UIViewAnimationOptions"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addChildViewController"]
+- !private ["Ps8Hashable", "destinationViewController"]
+- !private ["Ps8Hashable", "didMoveToParentViewController"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "parentViewController"]
+- ["Ps8Hashable", "perform"]
+- !private ["Ps8Hashable", "removeFromParentViewController"]
+- !private ["Ps8Hashable", "sourceViewController"]
+- !private ["Ps8Hashable", "transitionFromViewController"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "willMoveToParentViewController"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "addChildViewController"]
+- !private ["PSo8NSCoding", "didMoveToParentViewController"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "parentViewController"]
+- !private ["PSo8NSCoding", "removeFromParentViewController"]
+- !private ["PSo8NSCoding", "transitionFromViewController"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "willMoveToParentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "addChildViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "didMoveToParentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "parentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "removeFromParentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "transitionFromViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "willMoveToParentViewController"]
+- !private ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "UIViewAnimationOptions"]
+- !private ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "addChildViewController"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- !private ["CSo8NSObject", "didMoveToParentViewController"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "parentViewController"]
+- ["CSo8NSObject", "perform"]
+- !private ["CSo8NSObject", "removeFromParentViewController"]
+- !private ["CSo8NSObject", "sourceViewController"]
+- !private ["CSo8NSObject", "transitionFromViewController"]
+- !private ["CSo8NSObject", "view"]
+- !private ["CSo8NSObject", "willMoveToParentViewController"]
+- !private ["PSo16NSObjectProtocol", "UIViewAnimationOptions"]
+- !private ["PSo16NSObjectProtocol", "addChildViewController"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- !private ["PSo16NSObjectProtocol", "didMoveToParentViewController"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "parentViewController"]
+- ["PSo16NSObjectProtocol", "perform"]
+- !private ["PSo16NSObjectProtocol", "removeFromParentViewController"]
+- !private ["PSo16NSObjectProtocol", "sourceViewController"]
+- !private ["PSo16NSObjectProtocol", "transitionFromViewController"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "willMoveToParentViewController"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps13OptionSetType", "TransitionCrossDissolve"]
+- !private ["Ps16RawRepresentable", "TransitionCrossDissolve"]
+- !private ["C16SceneKitTemplate12ReplaceSegue", "Bool"]
+- !private ["C16SceneKitTemplate12ReplaceSegue", "UIViewAnimationOptions"]
+- !private ["C16SceneKitTemplate12ReplaceSegue", "UIViewController"]
+- ["C16SceneKitTemplate12ReplaceSegue", "deinit"]
+- !private ["C16SceneKitTemplate12ReplaceSegue", "destinationViewController"]
+- ["C16SceneKitTemplate12ReplaceSegue", "init"]
+- ["C16SceneKitTemplate12ReplaceSegue", "perform"]
+- !private ["C16SceneKitTemplate12ReplaceSegue", "sourceViewController"]
+- !private ["Ps14SetAlgebraType", "TransitionCrossDissolve"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "addChildViewController"]
+- !private ["PSo21UIAppearanceContainer", "didMoveToParentViewController"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "parentViewController"]
+- !private ["PSo21UIAppearanceContainer", "removeFromParentViewController"]
+- !private ["PSo21UIAppearanceContainer", "transitionFromViewController"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "willMoveToParentViewController"]
+- !private ["PSo18UIContentContainer", "addChildViewController"]
+- !private ["PSo18UIContentContainer", "didMoveToParentViewController"]
+- !private ["PSo18UIContentContainer", "parentViewController"]
+- !private ["PSo18UIContentContainer", "removeFromParentViewController"]
+- !private ["PSo18UIContentContainer", "transitionFromViewController"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIContentContainer", "willMoveToParentViewController"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "addChildViewController"]
+- !private ["PSo18UIFocusEnvironment", "didMoveToParentViewController"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "parentViewController"]
+- !private ["PSo18UIFocusEnvironment", "removeFromParentViewController"]
+- !private ["PSo18UIFocusEnvironment", "transitionFromViewController"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "willMoveToParentViewController"]
+- !private ["CSo11UIResponder", "addChildViewController"]
+- !private ["CSo11UIResponder", "didMoveToParentViewController"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "parentViewController"]
+- !private ["CSo11UIResponder", "removeFromParentViewController"]
+- !private ["CSo11UIResponder", "transitionFromViewController"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["CSo11UIResponder", "willMoveToParentViewController"]
+- !private ["PSo16UIStateRestoring", "addChildViewController"]
+- !private ["PSo16UIStateRestoring", "didMoveToParentViewController"]
+- !private ["PSo16UIStateRestoring", "parentViewController"]
+- !private ["PSo16UIStateRestoring", "removeFromParentViewController"]
+- !private ["PSo16UIStateRestoring", "transitionFromViewController"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo16UIStateRestoring", "willMoveToParentViewController"]
+- !private ["CSo17UIStoryboardSegue", "Bool"]
+- !private ["CSo17UIStoryboardSegue", "UIViewAnimationOptions"]
+- !private ["CSo17UIStoryboardSegue", "UIViewController"]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- ["CSo17UIStoryboardSegue", "init"]
+- ["CSo17UIStoryboardSegue", "perform"]
+- !private ["CSo17UIStoryboardSegue", "sourceViewController"]
+- ["CSo17UIStoryboardSegue", ""]
+- !private ["PSo18UITraitEnvironment", "addChildViewController"]
+- !private ["PSo18UITraitEnvironment", "didMoveToParentViewController"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "parentViewController"]
+- !private ["PSo18UITraitEnvironment", "removeFromParentViewController"]
+- !private ["PSo18UITraitEnvironment", "transitionFromViewController"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "willMoveToParentViewController"]
+- !private ["CSo6UIView", "frame"]
+- !private ["VSC22UIViewAnimationOptions", "TransitionCrossDissolve"]
+- !private ["CSo16UIViewController", "addChildViewController"]
+- !private ["CSo16UIViewController", "didMoveToParentViewController"]
+- !private ["CSo16UIViewController", "parentViewController"]
+- !private ["CSo16UIViewController", "removeFromParentViewController"]
+- !private ["CSo16UIViewController", "transitionFromViewController"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["CSo16UIViewController", "willMoveToParentViewController"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "frame"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps13OptionSetType"
+- !private "Ps16RawRepresentable"
+- "C16SceneKitTemplate12ReplaceSegue"
+- !private "Ps14SetAlgebraType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- "CSo17UIStoryboardSegue"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "VSC22UIViewAnimationOptions"
+- !private "CSo16UIViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/voxels/Documents/Scrap/Aiko_Swift/Aiko/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/Firebase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "b558539606ee819d639b9f3e3a6063e6"

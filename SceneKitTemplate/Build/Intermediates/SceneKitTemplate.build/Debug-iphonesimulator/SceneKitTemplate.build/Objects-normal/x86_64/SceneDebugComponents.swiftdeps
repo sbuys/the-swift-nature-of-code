@@ -1,0 +1,823 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "kDebugBoxDimensions"
+- "kDebugBoxChamferRadius"
+- "kDebugBoxNodeName"
+- "kSceneDebugLightAmbientColor"
+- "kSceneDebugLightAmbientVector"
+- "kSceneDebugLightFrontColor"
+- "kSceneDebugLightFrontVector"
+- "kSceneDebugCameraOptics"
+- "kSceneDebugCameraPosition"
+- "SceneDebugComponents"
+- "DebugInteractions"
+provides-nominal:
+- "C16SceneKitTemplate20SceneDebugComponents"
+- "C16SceneKitTemplate17DebugInteractions"
+provides-member:
+- ["C16SceneKitTemplate20SceneDebugComponents", ""]
+- ["C16SceneKitTemplate17DebugInteractions", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "SCNVector3"
+- "Void"
+- !private "+"
+- "kSceneDebugLightFrontColor"
+- "CGPoint"
+- !private "print"
+- "UIImage"
+- "Light"
+- "DebugInteractions"
+- "kDebugBoxChamferRadius"
+- "UIGestureRecognizer"
+- "kSceneDebugLightAmbientColor"
+- "SceneDebugComponents"
+- !private "Float"
+- !private "BooleanLiteralType"
+- !private "GeometryFactory"
+- !private "UIApplication"
+- "kSceneDebugLightFrontVector"
+- !private "UIPanGestureRecognizer"
+- "kDebugBoxDimensions"
+- "kSceneDebugCameraOptics"
+- "WhiteLightColorComponents"
+- "kDebugBoxNodeName"
+- "GameSceneGestureDelegate"
+- "Camera"
+- !private "LightFactory"
+- !private "UIGestureRecognizerState"
+- "SceneComponentFactory"
+- !private "UIColor"
+- !private "=="
+- !private "SCNVector3Make"
+- "CGFloat"
+- "StringLiteralType"
+- !private "CameraFactory"
+- !private "SCNNode"
+- !private "CGPointMake"
+- "Vector3"
+- "Entity"
+- !private "-"
+- "kSceneDebugLightAmbientVector"
+- !private "CGPointZero"
+- "kSceneDebugCameraPosition"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGPointMake"]
+- !private ["Ps9AnyObject", "CGPointZero"]
+- !private ["Ps9AnyObject", "Camera"]
+- !private ["Ps9AnyObject", "CameraFactory"]
+- !private ["Ps9AnyObject", "DebugInteractions"]
+- !private ["Ps9AnyObject", "Entity"]
+- !private ["Ps9AnyObject", "Float"]
+- !private ["Ps9AnyObject", "GeometryFactory"]
+- !private ["Ps9AnyObject", "Light"]
+- !private ["Ps9AnyObject", "LightFactory"]
+- !private ["Ps9AnyObject", "SCNVector3"]
+- !private ["Ps9AnyObject", "SCNVector3Make"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIGestureRecognizerState"]
+- !private ["Ps9AnyObject", "applyHexColorsMaterials"]
+- !private ["Ps9AnyObject", "cameraForType"]
+- !private ["Ps9AnyObject", "childNodeWithName"]
+- !private ["Ps9AnyObject", "customizeBox"]
+- !private ["Ps9AnyObject", "customizeCamera"]
+- !private ["Ps9AnyObject", "customizeLight"]
+- !private ["Ps9AnyObject", "geometryForType"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kDebugBoxChamferRadius"]
+- !private ["Ps9AnyObject", "kDebugBoxDimensions"]
+- !private ["Ps9AnyObject", "kDebugBoxNodeName"]
+- !private ["Ps9AnyObject", "kSceneDebugCameraOptics"]
+- !private ["Ps9AnyObject", "kSceneDebugCameraPosition"]
+- !private ["Ps9AnyObject", "kSceneDebugLightAmbientColor"]
+- !private ["Ps9AnyObject", "kSceneDebugLightAmbientVector"]
+- !private ["Ps9AnyObject", "kSceneDebugLightFrontColor"]
+- !private ["Ps9AnyObject", "kSceneDebugLightFrontVector"]
+- !private ["Ps9AnyObject", "keyWindow"]
+- ["Ps9AnyObject", "lastTranslation"]
+- !private ["Ps9AnyObject", "lightForType"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "node"]
+- !private ["Ps9AnyObject", "position"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "recognizedGesture"]
+- !private ["Ps9AnyObject", "rootNode"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "scene"]
+- ["Ps9AnyObject", "sceneCameras"]
+- ["Ps9AnyObject", "sceneCharacters"]
+- ["Ps9AnyObject", "sceneGestureDelegate"]
+- ["Ps9AnyObject", "sceneLights"]
+- ["Ps9AnyObject", "sceneSkybox"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "translationInView"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "Stride"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Stride"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "Stride"]
+- !private ["Ps11CVarArgType", "childNodeWithName"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "keyWindow"]
+- !private ["Ps11CVarArgType", "name"]
+- !private ["Ps11CVarArgType", "position"]
+- !private ["Ps11CVarArgType", "rootNode"]
+- !private ["Ps11CVarArgType", "rootViewController"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- !private ["Ps11CVarArgType", "state"]
+- !private ["Ps11CVarArgType", "translationInView"]
+- !private ["Ps11CVarArgType", "view"]
+- !private ["C16SceneKitTemplate13CameraFactory", "cameraForType"]
+- !private ["C16SceneKitTemplate13CameraFactory", "customizeCamera"]
+- !private ["O16SceneKitTemplate10CameraType", "Fixed"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "childNodeWithName"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "position"]
+- !private ["Ps28CustomDebugStringConvertible", "rootNode"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- !private ["Ps28CustomDebugStringConvertible", "translationInView"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "childNodeWithName"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyWindow"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "position"]
+- !private ["Ps23CustomStringConvertible", "rootNode"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- !private ["Ps23CustomStringConvertible", "translationInView"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["C16SceneKitTemplate17DebugInteractions", "CGPoint"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "CGPointMake"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "CGPointZero"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "Float"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "SCNVector3"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "UIApplication"]
+- ["C16SceneKitTemplate17DebugInteractions", "UIGestureRecognizer"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "UIGestureRecognizerState"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "UIPanGestureRecognizer"]
+- ["C16SceneKitTemplate17DebugInteractions", "deinit"]
+- ["C16SceneKitTemplate17DebugInteractions", "init"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "kDebugBoxNodeName"]
+- ["C16SceneKitTemplate17DebugInteractions", "lastTranslation"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "print"]
+- ["C16SceneKitTemplate17DebugInteractions", "recognizedGesture"]
+- !private ["C16SceneKitTemplate17DebugInteractions", "scene"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- !private ["C16SceneKitTemplate6Entity", "applyHexColorsMaterials"]
+- !private ["C16SceneKitTemplate6Entity", "node"]
+- !private ["P16SceneKitTemplate29EntityModelControllerDelegate", "applyHexColorsMaterials"]
+- !private ["P16SceneKitTemplate29EntityModelControllerDelegate", "node"]
+- !private ["Ps9Equatable", "Ambient"]
+- !private ["Ps9Equatable", "Began"]
+- !private ["Ps9Equatable", "Box"]
+- !private ["Ps9Equatable", "Changed"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Fixed"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Omni"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "childNodeWithName"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyWindow"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "position"]
+- !private ["Ps9Equatable", "rootNode"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- !private ["Ps9Equatable", "state"]
+- !private ["Ps9Equatable", "translationInView"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Sf", "init"]
+- !private ["Ps23FloatLiteralConvertible", "Stride"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "Stride"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "Stride"]
+- !private ["C16SceneKitTemplate9GameScene", "rootNode"]
+- ["C16SceneKitTemplate24GameSceneGestureDelegate", "CGPoint"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "CGPointMake"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "CGPointZero"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "Float"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "SCNVector3"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "UIApplication"]
+- ["C16SceneKitTemplate24GameSceneGestureDelegate", "UIGestureRecognizer"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "UIGestureRecognizerState"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "UIPanGestureRecognizer"]
+- ["C16SceneKitTemplate24GameSceneGestureDelegate", "init"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "kDebugBoxNodeName"]
+- ["C16SceneKitTemplate24GameSceneGestureDelegate", "lastTranslation"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "print"]
+- ["C16SceneKitTemplate24GameSceneGestureDelegate", "recognizedGesture"]
+- !private ["C16SceneKitTemplate24GameSceneGestureDelegate", "scene"]
+- ["C16SceneKitTemplate24GameSceneGestureDelegate", ""]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["C16SceneKitTemplate8Geometry", "applyHexColorsMaterials"]
+- !private ["C16SceneKitTemplate8Geometry", "node"]
+- !private ["C16SceneKitTemplate15GeometryFactory", "customizeBox"]
+- !private ["C16SceneKitTemplate15GeometryFactory", "geometryForType"]
+- !private ["O16SceneKitTemplate12GeometryType", "Box"]
+- !private ["Ps8Hashable", "Ambient"]
+- !private ["Ps8Hashable", "Began"]
+- !private ["Ps8Hashable", "Box"]
+- !private ["Ps8Hashable", "Changed"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Fixed"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Omni"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "childNodeWithName"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyWindow"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "position"]
+- !private ["Ps8Hashable", "rootNode"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- !private ["Ps8Hashable", "state"]
+- !private ["Ps8Hashable", "translationInView"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Stride"]
+- !private ["C16SceneKitTemplate12LightFactory", "customizeLight"]
+- !private ["C16SceneKitTemplate12LightFactory", "lightForType"]
+- !private ["O16SceneKitTemplate9LightType", "Ambient"]
+- !private ["O16SceneKitTemplate9LightType", "Omni"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Stride"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["PSo8NSCoding", "childNodeWithName"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "name"]
+- !private ["PSo8NSCoding", "position"]
+- !private ["PSo8NSCoding", "rootNode"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo9NSCopying", "childNodeWithName"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "name"]
+- !private ["PSo9NSCopying", "position"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["CSo8NSObject", "childNodeWithName"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyWindow"]
+- !private ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "position"]
+- !private ["CSo8NSObject", "rootNode"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "state"]
+- !private ["CSo8NSObject", "translationInView"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "childNodeWithName"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyWindow"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "position"]
+- !private ["PSo16NSObjectProtocol", "rootNode"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- !private ["PSo16NSObjectProtocol", "translationInView"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo14NSSecureCoding", "childNodeWithName"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "name"]
+- !private ["PSo14NSSecureCoding", "position"]
+- !private ["PSo14NSSecureCoding", "rootNode"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "Stride"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps16RawRepresentable", "Ambient"]
+- !private ["Ps16RawRepresentable", "Began"]
+- !private ["Ps16RawRepresentable", "Box"]
+- !private ["Ps16RawRepresentable", "Changed"]
+- !private ["Ps16RawRepresentable", "Omni"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["PSo13SCNActionable", "childNodeWithName"]
+- !private ["PSo13SCNActionable", "name"]
+- !private ["PSo13SCNActionable", "position"]
+- !private ["PSo13SCNAnimatable", "childNodeWithName"]
+- !private ["PSo13SCNAnimatable", "name"]
+- !private ["PSo13SCNAnimatable", "position"]
+- !private ["PSo17SCNBoundingVolume", "childNodeWithName"]
+- !private ["PSo17SCNBoundingVolume", "name"]
+- !private ["PSo17SCNBoundingVolume", "position"]
+- !private ["CSo7SCNNode", "childNodeWithName"]
+- !private ["CSo7SCNNode", "name"]
+- !private ["CSo7SCNNode", "position"]
+- !private ["CSo8SCNScene", "rootNode"]
+- !private ["VSC10SCNVector3", "init"]
+- !private ["VSC10SCNVector3", "x"]
+- !private ["VSC10SCNVector3", "y"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "Camera"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "CameraFactory"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "DebugInteractions"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "Entity"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "GameSceneGestureDelegate"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "GeometryFactory"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "Light"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "LightFactory"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "SCNNode"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "SCNVector3"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "SCNVector3Make"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "UIColor"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "UIImage"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "Void"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "init"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kDebugBoxChamferRadius"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kDebugBoxDimensions"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kDebugBoxNodeName"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kSceneDebugCameraOptics"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kSceneDebugCameraPosition"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kSceneDebugLightAmbientColor"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kSceneDebugLightAmbientVector"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kSceneDebugLightFrontColor"]
+- !private ["C16SceneKitTemplate21SceneComponentFactory", "kSceneDebugLightFrontVector"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "sceneCameras"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "sceneCharacters"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "sceneGestureDelegate"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "sceneLights"]
+- ["C16SceneKitTemplate21SceneComponentFactory", "sceneSkybox"]
+- ["C16SceneKitTemplate21SceneComponentFactory", ""]
+- ["C16SceneKitTemplate20SceneDebugComponents", "Camera"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "CameraFactory"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "DebugInteractions"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "Entity"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "GameSceneGestureDelegate"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "GeometryFactory"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "Light"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "LightFactory"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "SCNNode"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "SCNVector3"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "SCNVector3Make"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "UIColor"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "UIImage"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "Void"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "deinit"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "init"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kDebugBoxChamferRadius"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kDebugBoxDimensions"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kDebugBoxNodeName"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kSceneDebugCameraOptics"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kSceneDebugCameraPosition"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kSceneDebugLightAmbientColor"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kSceneDebugLightAmbientVector"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kSceneDebugLightFrontColor"]
+- !private ["C16SceneKitTemplate20SceneDebugComponents", "kSceneDebugLightFrontVector"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "sceneCameras"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "sceneCharacters"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "sceneGestureDelegate"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "sceneLights"]
+- ["C16SceneKitTemplate20SceneDebugComponents", "sceneSkybox"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "Stride"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Stride"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["CSo13UIApplication", "keyWindow"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["CSo7UIColor", "init"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["CSo19UIGestureRecognizer", "deinit"]
+- !private ["CSo19UIGestureRecognizer", "state"]
+- !private ["CSo19UIGestureRecognizer", "translationInView"]
+- !private ["OSC24UIGestureRecognizerState", "Began"]
+- !private ["OSC24UIGestureRecognizerState", "Changed"]
+- !private ["OSC24UIGestureRecognizerState", "RawValue"]
+- !private ["OSC24UIGestureRecognizerState", "deinit"]
+- !private ["CSo22UIPanGestureRecognizer", "state"]
+- !private ["CSo22UIPanGestureRecognizer", "translationInView"]
+- !private ["CSo11UIResponder", "keyWindow"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- ["V16SceneKitTemplate7Vector3", "init"]
+- !private ["V16SceneKitTemplate7Vector3", "x"]
+- !private ["V16SceneKitTemplate7Vector3", "y"]
+- !private ["V16SceneKitTemplate7Vector3", "z"]
+- !private ["V16SceneKitTemplate25WhiteLightColorComponents", "alpha"]
+- ["V16SceneKitTemplate25WhiteLightColorComponents", "init"]
+- !private ["V16SceneKitTemplate25WhiteLightColorComponents", "white"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "Stride"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Stride"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "Stride"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Stride"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "Stride"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "Stride"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "rootViewController"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "Stride"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "Ps11CVarArgType"
+- !private "C16SceneKitTemplate13CameraFactory"
+- !private "O16SceneKitTemplate10CameraType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "C16SceneKitTemplate17DebugInteractions"
+- !private "Sd"
+- !private "C16SceneKitTemplate6Entity"
+- !private "P16SceneKitTemplate29EntityModelControllerDelegate"
+- !private "Ps9Equatable"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "C16SceneKitTemplate9GameScene"
+- "C16SceneKitTemplate24GameSceneGestureDelegate"
+- !private "Ps13GeneratorType"
+- !private "C16SceneKitTemplate8Geometry"
+- !private "C16SceneKitTemplate15GeometryFactory"
+- !private "O16SceneKitTemplate12GeometryType"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "C16SceneKitTemplate12LightFactory"
+- !private "O16SceneKitTemplate9LightType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "PSo13SCNActionable"
+- !private "PSo13SCNAnimatable"
+- !private "PSo17SCNBoundingVolume"
+- !private "CSo7SCNNode"
+- !private "CSo8SCNScene"
+- !private "VSC10SCNVector3"
+- "C16SceneKitTemplate21SceneComponentFactory"
+- "C16SceneKitTemplate20SceneDebugComponents"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "CSo7UIColor"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo19UIGestureRecognizer"
+- !private "OSC24UIGestureRecognizerState"
+- !private "CSo22UIPanGestureRecognizer"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- "V16SceneKitTemplate7Vector3"
+- "V16SceneKitTemplate25WhiteLightColorComponents"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/voxels/Documents/Scrap/Aiko_Swift/Aiko/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/Firebase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/ColorUtils/ColorUtils.framework/Headers/ColorUtils.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/ColorUtils/ColorUtils.framework/Headers/ColorUtils-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/ColorUtils/ColorUtils.framework/Modules/module.modulemap"
+interface-hash: "298043a365651ba660fd18aa296e5613"

@@ -1,0 +1,540 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RemoteStore"
+provides-nominal:
+- "C16SceneKitTemplate11RemoteStore"
+provides-member:
+- ["C16SceneKitTemplate11RemoteStore", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FBSDKAccessToken"
+- "RemoteStore"
+- "FIRDatabase"
+- !private "StringLiteralType"
+- "Void"
+- "NSError"
+- "FIRUser"
+- !private "DEBUG_FIREBASE_ACCOUNT"
+- !private "!="
+- !private "FIRAuth"
+- !private "FIRAuthErrorCode"
+- "String"
+- !private "print"
+- !private "FIRFacebookAuthProvider"
+depends-member:
+- !private ["Ps9AnyObject", "DEBUG_FIREBASE_ACCOUNT"]
+- !private ["Ps9AnyObject", "FBSDKAccessToken"]
+- !private ["Ps9AnyObject", "FIRAuth"]
+- !private ["Ps9AnyObject", "FIRAuthErrorCode"]
+- ["Ps9AnyObject", "FIRDatabase"]
+- !private ["Ps9AnyObject", "FIRFacebookAuthProvider"]
+- ["Ps9AnyObject", "RemoteStore"]
+- !private ["Ps9AnyObject", "auth"]
+- !private ["Ps9AnyObject", "code"]
+- !private ["Ps9AnyObject", "credentialWithAccessToken"]
+- !private ["Ps9AnyObject", "currentAccessToken"]
+- !private ["Ps9AnyObject", "currentUser"]
+- ["Ps9AnyObject", "database"]
+- !private ["Ps9AnyObject", "handleAppNotAuthorizedError"]
+- !private ["Ps9AnyObject", "handleAuthError"]
+- !private ["Ps9AnyObject", "handleCredentialAlreadyInUseError"]
+- !private ["Ps9AnyObject", "handleEmailAlreadyInUseError"]
+- !private ["Ps9AnyObject", "handleError"]
+- !private ["Ps9AnyObject", "handleInternalError"]
+- !private ["Ps9AnyObject", "handleInvalidAPIKeyError"]
+- !private ["Ps9AnyObject", "handleInvalidEmailError"]
+- !private ["Ps9AnyObject", "handleInvalidUserTokenError"]
+- !private ["Ps9AnyObject", "handleKeychainError"]
+- !private ["Ps9AnyObject", "handleNetworkError"]
+- !private ["Ps9AnyObject", "handleNoSuchProviderError"]
+- !private ["Ps9AnyObject", "handleProviderAlreadyLinkedError"]
+- !private ["Ps9AnyObject", "handleTooManyRequestsError"]
+- !private ["Ps9AnyObject", "handleUnknownError"]
+- !private ["Ps9AnyObject", "handleUserDisabledError"]
+- !private ["Ps9AnyObject", "handleUserNotFoundError"]
+- !private ["Ps9AnyObject", "handleUserTokenExpiredError"]
+- !private ["Ps9AnyObject", "handleWeakPasswordError"]
+- !private ["Ps9AnyObject", "handleWrongPasswordError"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "linkWithCredential"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "reference"]
+- !private ["Ps9AnyObject", "sendPasswordResetWithEmail"]
+- !private ["Ps9AnyObject", "signInAnonymouslyWithCompletion"]
+- !private ["Ps9AnyObject", "signInWithEmail"]
+- !private ["Ps9AnyObject", "signOut"]
+- !private ["Ps9AnyObject", "signOutCurrentUser"]
+- !private ["Ps9AnyObject", "tokenString"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "auth"]
+- !private ["Ps11CVarArgType", "code"]
+- !private ["Ps11CVarArgType", "credentialWithAccessToken"]
+- !private ["Ps11CVarArgType", "currentAccessToken"]
+- !private ["Ps11CVarArgType", "currentUser"]
+- ["Ps11CVarArgType", "database"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "linkWithCredential"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- ["Ps11CVarArgType", "reference"]
+- !private ["Ps11CVarArgType", "sendPasswordResetWithEmail"]
+- !private ["Ps11CVarArgType", "signInAnonymouslyWithCompletion"]
+- !private ["Ps11CVarArgType", "signInWithEmail"]
+- !private ["Ps11CVarArgType", "signOut"]
+- !private ["Ps11CVarArgType", "tokenString"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "auth"]
+- !private ["Ps28CustomDebugStringConvertible", "code"]
+- !private ["Ps28CustomDebugStringConvertible", "credentialWithAccessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "currentAccessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "currentUser"]
+- ["Ps28CustomDebugStringConvertible", "database"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "linkWithCredential"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- ["Ps28CustomDebugStringConvertible", "reference"]
+- !private ["Ps28CustomDebugStringConvertible", "sendPasswordResetWithEmail"]
+- !private ["Ps28CustomDebugStringConvertible", "signInAnonymouslyWithCompletion"]
+- !private ["Ps28CustomDebugStringConvertible", "signInWithEmail"]
+- !private ["Ps28CustomDebugStringConvertible", "signOut"]
+- !private ["Ps28CustomDebugStringConvertible", "tokenString"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "auth"]
+- !private ["Ps23CustomStringConvertible", "code"]
+- !private ["Ps23CustomStringConvertible", "credentialWithAccessToken"]
+- !private ["Ps23CustomStringConvertible", "currentAccessToken"]
+- !private ["Ps23CustomStringConvertible", "currentUser"]
+- ["Ps23CustomStringConvertible", "database"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "linkWithCredential"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- ["Ps23CustomStringConvertible", "reference"]
+- !private ["Ps23CustomStringConvertible", "sendPasswordResetWithEmail"]
+- !private ["Ps23CustomStringConvertible", "signInAnonymouslyWithCompletion"]
+- !private ["Ps23CustomStringConvertible", "signInWithEmail"]
+- !private ["Ps23CustomStringConvertible", "signOut"]
+- !private ["Ps23CustomStringConvertible", "tokenString"]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "ErrorCodeAppNotAuthorized"]
+- ["Ps9Equatable", "ErrorCodeCredentialAlreadyInUse"]
+- ["Ps9Equatable", "ErrorCodeEmailAlreadyInUse"]
+- ["Ps9Equatable", "ErrorCodeInternalError"]
+- ["Ps9Equatable", "ErrorCodeInvalidAPIKey"]
+- ["Ps9Equatable", "ErrorCodeInvalidEmail"]
+- ["Ps9Equatable", "ErrorCodeInvalidUserToken"]
+- ["Ps9Equatable", "ErrorCodeKeychainError"]
+- ["Ps9Equatable", "ErrorCodeNetworkError"]
+- ["Ps9Equatable", "ErrorCodeNoSuchProvider"]
+- ["Ps9Equatable", "ErrorCodeProviderAlreadyLinked"]
+- ["Ps9Equatable", "ErrorCodeTooManyRequests"]
+- ["Ps9Equatable", "ErrorCodeUserDisabled"]
+- ["Ps9Equatable", "ErrorCodeUserNotFound"]
+- ["Ps9Equatable", "ErrorCodeUserTokenExpired"]
+- ["Ps9Equatable", "ErrorCodeWeakPassword"]
+- ["Ps9Equatable", "ErrorCodeWrongPassword"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "auth"]
+- !private ["Ps9Equatable", "code"]
+- !private ["Ps9Equatable", "credentialWithAccessToken"]
+- !private ["Ps9Equatable", "currentAccessToken"]
+- !private ["Ps9Equatable", "currentUser"]
+- ["Ps9Equatable", "database"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "linkWithCredential"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- ["Ps9Equatable", "reference"]
+- !private ["Ps9Equatable", "sendPasswordResetWithEmail"]
+- !private ["Ps9Equatable", "signInAnonymouslyWithCompletion"]
+- !private ["Ps9Equatable", "signInWithEmail"]
+- !private ["Ps9Equatable", "signOut"]
+- !private ["Ps9Equatable", "tokenString"]
+- !private ["Ps9ErrorType", "code"]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["CSo16FBSDKAccessToken", "tokenString"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["PSo12FBSDKCopying", "tokenString"]
+- !private ["CSo7FIRAuth", "auth"]
+- !private ["CSo7FIRAuth", "currentUser"]
+- !private ["CSo7FIRAuth", "sendPasswordResetWithEmail"]
+- !private ["CSo7FIRAuth", "signInAnonymouslyWithCompletion"]
+- !private ["CSo7FIRAuth", "signInWithEmail"]
+- !private ["CSo7FIRAuth", "signOut"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeAppNotAuthorized"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeCredentialAlreadyInUse"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeEmailAlreadyInUse"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeInternalError"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeInvalidAPIKey"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeInvalidEmail"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeInvalidUserToken"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeKeychainError"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeNetworkError"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeNoSuchProvider"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeProviderAlreadyLinked"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeTooManyRequests"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeUserDisabled"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeUserNotFound"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeUserTokenExpired"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeWeakPassword"]
+- ["OSC16FIRAuthErrorCode", "ErrorCodeWrongPassword"]
+- !private ["OSC16FIRAuthErrorCode", "init"]
+- ["CSo11FIRDatabase", "database"]
+- ["CSo11FIRDatabase", "reference"]
+- !private ["CSo23FIRFacebookAuthProvider", "credentialWithAccessToken"]
+- !private ["CSo7FIRUser", "linkWithCredential"]
+- !private ["PSo11FIRUserInfo", "linkWithCredential"]
+- !private ["Sf", "deinit"]
+- ["Ps8Hashable", "ErrorCodeAppNotAuthorized"]
+- ["Ps8Hashable", "ErrorCodeCredentialAlreadyInUse"]
+- ["Ps8Hashable", "ErrorCodeEmailAlreadyInUse"]
+- ["Ps8Hashable", "ErrorCodeInternalError"]
+- ["Ps8Hashable", "ErrorCodeInvalidAPIKey"]
+- ["Ps8Hashable", "ErrorCodeInvalidEmail"]
+- ["Ps8Hashable", "ErrorCodeInvalidUserToken"]
+- ["Ps8Hashable", "ErrorCodeKeychainError"]
+- ["Ps8Hashable", "ErrorCodeNetworkError"]
+- ["Ps8Hashable", "ErrorCodeNoSuchProvider"]
+- ["Ps8Hashable", "ErrorCodeProviderAlreadyLinked"]
+- ["Ps8Hashable", "ErrorCodeTooManyRequests"]
+- ["Ps8Hashable", "ErrorCodeUserDisabled"]
+- ["Ps8Hashable", "ErrorCodeUserNotFound"]
+- ["Ps8Hashable", "ErrorCodeUserTokenExpired"]
+- ["Ps8Hashable", "ErrorCodeWeakPassword"]
+- ["Ps8Hashable", "ErrorCodeWrongPassword"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "auth"]
+- !private ["Ps8Hashable", "code"]
+- !private ["Ps8Hashable", "credentialWithAccessToken"]
+- !private ["Ps8Hashable", "currentAccessToken"]
+- !private ["Ps8Hashable", "currentUser"]
+- ["Ps8Hashable", "database"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "linkWithCredential"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- ["Ps8Hashable", "reference"]
+- !private ["Ps8Hashable", "sendPasswordResetWithEmail"]
+- !private ["Ps8Hashable", "signInAnonymouslyWithCompletion"]
+- !private ["Ps8Hashable", "signInWithEmail"]
+- !private ["Ps8Hashable", "signOut"]
+- !private ["Ps8Hashable", "tokenString"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "code"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "tokenString"]
+- !private ["PSo9NSCopying", "code"]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "tokenString"]
+- !private ["CSo7NSError", "code"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "auth"]
+- !private ["CSo8NSObject", "code"]
+- !private ["CSo8NSObject", "credentialWithAccessToken"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "currentUser"]
+- ["CSo8NSObject", "database"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "linkWithCredential"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- ["CSo8NSObject", "reference"]
+- !private ["CSo8NSObject", "sendPasswordResetWithEmail"]
+- !private ["CSo8NSObject", "signInAnonymouslyWithCompletion"]
+- !private ["CSo8NSObject", "signInWithEmail"]
+- !private ["CSo8NSObject", "signOut"]
+- !private ["CSo8NSObject", "tokenString"]
+- !private ["PSo16NSObjectProtocol", "auth"]
+- !private ["PSo16NSObjectProtocol", "code"]
+- !private ["PSo16NSObjectProtocol", "credentialWithAccessToken"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- !private ["PSo16NSObjectProtocol", "currentUser"]
+- ["PSo16NSObjectProtocol", "database"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "linkWithCredential"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- ["PSo16NSObjectProtocol", "reference"]
+- !private ["PSo16NSObjectProtocol", "sendPasswordResetWithEmail"]
+- !private ["PSo16NSObjectProtocol", "signInAnonymouslyWithCompletion"]
+- !private ["PSo16NSObjectProtocol", "signInWithEmail"]
+- !private ["PSo16NSObjectProtocol", "signOut"]
+- !private ["PSo16NSObjectProtocol", "tokenString"]
+- !private ["PSo14NSSecureCoding", "code"]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "tokenString"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- ["Ps16RawRepresentable", "ErrorCodeAppNotAuthorized"]
+- ["Ps16RawRepresentable", "ErrorCodeCredentialAlreadyInUse"]
+- ["Ps16RawRepresentable", "ErrorCodeEmailAlreadyInUse"]
+- ["Ps16RawRepresentable", "ErrorCodeInternalError"]
+- ["Ps16RawRepresentable", "ErrorCodeInvalidAPIKey"]
+- ["Ps16RawRepresentable", "ErrorCodeInvalidEmail"]
+- ["Ps16RawRepresentable", "ErrorCodeInvalidUserToken"]
+- ["Ps16RawRepresentable", "ErrorCodeKeychainError"]
+- ["Ps16RawRepresentable", "ErrorCodeNetworkError"]
+- ["Ps16RawRepresentable", "ErrorCodeNoSuchProvider"]
+- ["Ps16RawRepresentable", "ErrorCodeProviderAlreadyLinked"]
+- ["Ps16RawRepresentable", "ErrorCodeTooManyRequests"]
+- ["Ps16RawRepresentable", "ErrorCodeUserDisabled"]
+- ["Ps16RawRepresentable", "ErrorCodeUserNotFound"]
+- ["Ps16RawRepresentable", "ErrorCodeUserTokenExpired"]
+- ["Ps16RawRepresentable", "ErrorCodeWeakPassword"]
+- ["Ps16RawRepresentable", "ErrorCodeWrongPassword"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["C16SceneKitTemplate11RemoteStore", "DEBUG_FIREBASE_ACCOUNT"]
+- !private ["C16SceneKitTemplate11RemoteStore", "FBSDKAccessToken"]
+- !private ["C16SceneKitTemplate11RemoteStore", "FIRAuth"]
+- !private ["C16SceneKitTemplate11RemoteStore", "FIRAuthErrorCode"]
+- ["C16SceneKitTemplate11RemoteStore", "FIRDatabase"]
+- !private ["C16SceneKitTemplate11RemoteStore", "FIRFacebookAuthProvider"]
+- ["C16SceneKitTemplate11RemoteStore", "FIRUser"]
+- ["C16SceneKitTemplate11RemoteStore", "NSError"]
+- ["C16SceneKitTemplate11RemoteStore", "RemoteStore"]
+- ["C16SceneKitTemplate11RemoteStore", "String"]
+- ["C16SceneKitTemplate11RemoteStore", "Void"]
+- ["C16SceneKitTemplate11RemoteStore", "currentUser"]
+- ["C16SceneKitTemplate11RemoteStore", "deinit"]
+- ["C16SceneKitTemplate11RemoteStore", "handleAppNotAuthorizedError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleAuthError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleCredentialAlreadyInUseError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleEmailAlreadyInUseError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleInternalError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleInvalidAPIKeyError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleInvalidEmailError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleInvalidUserTokenError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleKeychainError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleNetworkError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleNoSuchProviderError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleProviderAlreadyLinkedError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleRequiresRecentLoginError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleTooManyRequestsError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleUnknownError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleUserDisabledError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleUserNotFoundError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleUserTokenExpiredError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleWeakPasswordError"]
+- ["C16SceneKitTemplate11RemoteStore", "handleWrongPasswordError"]
+- ["C16SceneKitTemplate11RemoteStore", "init"]
+- !private ["C16SceneKitTemplate11RemoteStore", "print"]
+- ["C16SceneKitTemplate11RemoteStore", "ref"]
+- ["C16SceneKitTemplate11RemoteStore", "resetPassword"]
+- ["C16SceneKitTemplate11RemoteStore", "sharedStore"]
+- ["C16SceneKitTemplate11RemoteStore", "signOutCurrentUser"]
+- ["C16SceneKitTemplate11RemoteStore", "userLinkWithEmail"]
+- ["C16SceneKitTemplate11RemoteStore", "userLinkWithFacebook"]
+- ["C16SceneKitTemplate11RemoteStore", "userSignedInAnonymously"]
+- ["C16SceneKitTemplate11RemoteStore", "userSignedInEmail"]
+- ["C16SceneKitTemplate11RemoteStore", "warmUp"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo16FBSDKAccessToken"
+- !private "PSo12FBSDKCopying"
+- !private "CSo7FIRAuth"
+- "OSC16FIRAuthErrorCode"
+- "CSo11FIRDatabase"
+- !private "CSo23FIRFacebookAuthProvider"
+- !private "CSo7FIRUser"
+- !private "PSo11FIRUserInfo"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- "Ps16RawRepresentable"
+- "C16SceneKitTemplate11RemoteStore"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/voxels/Documents/Scrap/Aiko_Swift/Aiko/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/Firebase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "9fc4ae07d847f23f78828182a97bb7eb"

@@ -1,0 +1,1070 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RootNavigationController"
+provides-nominal:
+- "C16SceneKitTemplate24RootNavigationController"
+provides-member:
+- ["C16SceneKitTemplate24RootNavigationController", ""]
+provides-dynamic-lookup:
+- "didPresentParentView"
+- "showParentView"
+- "viewDidLoad"
+- "rootViewController"
+- "navigationController"
+- "showGameScene"
+- "checkLandingState"
+- "didFinishLaunchingWithOptions"
+depends-top-level:
+- !private "StringLiteralType"
+- !private "fatalError"
+- "SceneController"
+- "ParentViewController"
+- !private "DEBUG_SCENEKIT_GAMESCENE"
+- !private "&&"
+- "UINavigationControllerDelegate"
+- !private "User"
+- "SKTransition"
+- !private "=="
+- "Bool"
+- "UIViewController"
+- !private "Array"
+- "UINavigationController"
+- "RootNavigationController"
+- "BooleanLiteralType"
+- !private "print"
+- !private "StoryboardKey"
+- "AnyObject"
+- !private "kTransitionFadeParentInDuration"
+- !private "String"
+- "NSObject"
+- "GameScene"
+- !private "SegueKey"
+depends-member:
+- !private ["Ps9AnyObject", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["Ps9AnyObject", "GameScene"]
+- !private ["Ps9AnyObject", "ParentViewController"]
+- !private ["Ps9AnyObject", "SKTransition"]
+- ["Ps9AnyObject", "SceneController"]
+- !private ["Ps9AnyObject", "SegueKey"]
+- !private ["Ps9AnyObject", "StoryboardKey"]
+- !private ["Ps9AnyObject", "User"]
+- ["Ps9AnyObject", "checkLandingState"]
+- !private ["Ps9AnyObject", "childViewController"]
+- !private ["Ps9AnyObject", "childViewControllers"]
+- !private ["Ps9AnyObject", "classForCoder"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didFinishLaunchingWithOptions"]
+- ["Ps9AnyObject", "didPresentParentView"]
+- !private ["Ps9AnyObject", "fadeWithDuration"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps9AnyObject", "kTransitionFadeParentInDuration"]
+- ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9AnyObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps9AnyObject", "parentSceneView"]
+- !private ["Ps9AnyObject", "performSegueWithIdentifier"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "rootViewController"]
+- ["Ps9AnyObject", "sceneControl"]
+- !private ["Ps9AnyObject", "setViewControllers"]
+- ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "showGameScene"]
+- ["Ps9AnyObject", "showParentView"]
+- !private ["Ps9AnyObject", "showSceneWithTransition"]
+- !private ["Ps9AnyObject", "signInAnonymously"]
+- !private ["Ps9AnyObject", "storyboard"]
+- !private ["Ps9AnyObject", "userIsAuthenticated"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "GameScene"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "ParentViewController"]
+- !private ["Ps11CVarArgType", "SKTransition"]
+- ["Ps11CVarArgType", "SceneController"]
+- !private ["Ps11CVarArgType", "SegueKey"]
+- !private ["Ps11CVarArgType", "StoryboardKey"]
+- !private ["Ps11CVarArgType", "User"]
+- ["Ps11CVarArgType", "checkLandingState"]
+- !private ["Ps11CVarArgType", "childViewController"]
+- !private ["Ps11CVarArgType", "childViewControllers"]
+- !private ["Ps11CVarArgType", "classForCoder"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "didFinishLaunchingWithOptions"]
+- ["Ps11CVarArgType", "didPresentParentView"]
+- !private ["Ps11CVarArgType", "fadeWithDuration"]
+- !private ["Ps11CVarArgType", "fatalError"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps11CVarArgType", "kTransitionFadeParentInDuration"]
+- ["Ps11CVarArgType", "navigationController"]
+- ["Ps11CVarArgType", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps11CVarArgType", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps11CVarArgType", "parentSceneView"]
+- !private ["Ps11CVarArgType", "performSegueWithIdentifier"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "rootViewController"]
+- ["Ps11CVarArgType", "sceneControl"]
+- !private ["Ps11CVarArgType", "setViewControllers"]
+- ["Ps11CVarArgType", "showGameScene"]
+- ["Ps11CVarArgType", "showParentView"]
+- !private ["Ps11CVarArgType", "storyboard"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "GameScene"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "ParentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "SKTransition"]
+- ["Ps28CustomDebugStringConvertible", "SceneController"]
+- !private ["Ps28CustomDebugStringConvertible", "SegueKey"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "StoryboardKey"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "User"]
+- ["Ps28CustomDebugStringConvertible", "checkLandingState"]
+- !private ["Ps28CustomDebugStringConvertible", "childViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "childViewControllers"]
+- !private ["Ps28CustomDebugStringConvertible", "classForCoder"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didFinishLaunchingWithOptions"]
+- ["Ps28CustomDebugStringConvertible", "didPresentParentView"]
+- !private ["Ps28CustomDebugStringConvertible", "fadeWithDuration"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "kTransitionFadeParentInDuration"]
+- ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps28CustomDebugStringConvertible", "parentSceneView"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- ["Ps28CustomDebugStringConvertible", "sceneControl"]
+- !private ["Ps28CustomDebugStringConvertible", "setViewControllers"]
+- ["Ps28CustomDebugStringConvertible", "showGameScene"]
+- ["Ps28CustomDebugStringConvertible", "showParentView"]
+- !private ["Ps28CustomDebugStringConvertible", "storyboard"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "GameScene"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "ParentViewController"]
+- !private ["Ps23CustomStringConvertible", "SKTransition"]
+- ["Ps23CustomStringConvertible", "SceneController"]
+- !private ["Ps23CustomStringConvertible", "SegueKey"]
+- !private ["Ps23CustomStringConvertible", "StoryboardKey"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "User"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "checkLandingState"]
+- !private ["Ps23CustomStringConvertible", "childViewController"]
+- !private ["Ps23CustomStringConvertible", "childViewControllers"]
+- !private ["Ps23CustomStringConvertible", "classForCoder"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didFinishLaunchingWithOptions"]
+- ["Ps23CustomStringConvertible", "didPresentParentView"]
+- !private ["Ps23CustomStringConvertible", "fadeWithDuration"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "kTransitionFadeParentInDuration"]
+- ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps23CustomStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps23CustomStringConvertible", "parentSceneView"]
+- !private ["Ps23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "rootViewController"]
+- ["Ps23CustomStringConvertible", "sceneControl"]
+- !private ["Ps23CustomStringConvertible", "setViewControllers"]
+- ["Ps23CustomStringConvertible", "showGameScene"]
+- ["Ps23CustomStringConvertible", "showParentView"]
+- !private ["Ps23CustomStringConvertible", "storyboard"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["Ps9Equatable", "Debug"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "GameScene"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "ParentView"]
+- !private ["Ps9Equatable", "ParentViewController"]
+- !private ["Ps9Equatable", "ReplaceGameHUD"]
+- !private ["Ps9Equatable", "SKTransition"]
+- ["Ps9Equatable", "SceneController"]
+- !private ["Ps9Equatable", "SegueKey"]
+- !private ["Ps9Equatable", "StoryboardKey"]
+- !private ["Ps9Equatable", "User"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "checkLandingState"]
+- !private ["Ps9Equatable", "childViewController"]
+- !private ["Ps9Equatable", "childViewControllers"]
+- !private ["Ps9Equatable", "classForCoder"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didFinishLaunchingWithOptions"]
+- ["Ps9Equatable", "didPresentParentView"]
+- !private ["Ps9Equatable", "fadeWithDuration"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps9Equatable", "kTransitionFadeParentInDuration"]
+- ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9Equatable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps9Equatable", "parentSceneView"]
+- !private ["Ps9Equatable", "performSegueWithIdentifier"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "rootViewController"]
+- ["Ps9Equatable", "sceneControl"]
+- !private ["Ps9Equatable", "setViewControllers"]
+- ["Ps9Equatable", "showGameScene"]
+- ["Ps9Equatable", "showParentView"]
+- !private ["Ps9Equatable", "storyboard"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["C16SceneKitTemplate9GameScene", "init"]
+- !private ["O16SceneKitTemplate13GameSceneType", "Debug"]
+- !private ["Ps8Hashable", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["Ps8Hashable", "Debug"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "GameScene"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "ParentView"]
+- !private ["Ps8Hashable", "ParentViewController"]
+- !private ["Ps8Hashable", "ReplaceGameHUD"]
+- !private ["Ps8Hashable", "SKTransition"]
+- ["Ps8Hashable", "SceneController"]
+- !private ["Ps8Hashable", "SegueKey"]
+- !private ["Ps8Hashable", "StoryboardKey"]
+- !private ["Ps8Hashable", "User"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "checkLandingState"]
+- !private ["Ps8Hashable", "childViewController"]
+- !private ["Ps8Hashable", "childViewControllers"]
+- !private ["Ps8Hashable", "classForCoder"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didFinishLaunchingWithOptions"]
+- ["Ps8Hashable", "didPresentParentView"]
+- !private ["Ps8Hashable", "fadeWithDuration"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps8Hashable", "kTransitionFadeParentInDuration"]
+- ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps8Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps8Hashable", "parentSceneView"]
+- !private ["Ps8Hashable", "performSegueWithIdentifier"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "rootViewController"]
+- ["Ps8Hashable", "sceneControl"]
+- !private ["Ps8Hashable", "setViewControllers"]
+- ["Ps8Hashable", "showGameScene"]
+- ["Ps8Hashable", "showParentView"]
+- !private ["Ps8Hashable", "storyboard"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["PSo8NSCoding", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo8NSCoding", "GameScene"]
+- !private ["PSo8NSCoding", "ParentViewController"]
+- !private ["PSo8NSCoding", "SKTransition"]
+- ["PSo8NSCoding", "SceneController"]
+- !private ["PSo8NSCoding", "SegueKey"]
+- !private ["PSo8NSCoding", "StoryboardKey"]
+- !private ["PSo8NSCoding", "User"]
+- ["PSo8NSCoding", "checkLandingState"]
+- !private ["PSo8NSCoding", "childViewController"]
+- !private ["PSo8NSCoding", "childViewControllers"]
+- !private ["PSo8NSCoding", "classForCoder"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didFinishLaunchingWithOptions"]
+- ["PSo8NSCoding", "didPresentParentView"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kTransitionFadeParentInDuration"]
+- ["PSo8NSCoding", "navigationController"]
+- ["PSo8NSCoding", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo8NSCoding", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo8NSCoding", "parentSceneView"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "rootViewController"]
+- ["PSo8NSCoding", "sceneControl"]
+- !private ["PSo8NSCoding", "setViewControllers"]
+- ["PSo8NSCoding", "showGameScene"]
+- ["PSo8NSCoding", "showParentView"]
+- !private ["PSo8NSCoding", "storyboard"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "fadeWithDuration"]
+- !private ["PSo26NSExtensionRequestHandling", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo26NSExtensionRequestHandling", "GameScene"]
+- !private ["PSo26NSExtensionRequestHandling", "ParentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "SKTransition"]
+- ["PSo26NSExtensionRequestHandling", "SceneController"]
+- !private ["PSo26NSExtensionRequestHandling", "SegueKey"]
+- !private ["PSo26NSExtensionRequestHandling", "StoryboardKey"]
+- !private ["PSo26NSExtensionRequestHandling", "User"]
+- ["PSo26NSExtensionRequestHandling", "checkLandingState"]
+- !private ["PSo26NSExtensionRequestHandling", "childViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "childViewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "classForCoder"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- ["PSo26NSExtensionRequestHandling", "didFinishLaunchingWithOptions"]
+- ["PSo26NSExtensionRequestHandling", "didPresentParentView"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "kTransitionFadeParentInDuration"]
+- ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo26NSExtensionRequestHandling", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo26NSExtensionRequestHandling", "parentSceneView"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "rootViewController"]
+- ["PSo26NSExtensionRequestHandling", "sceneControl"]
+- !private ["PSo26NSExtensionRequestHandling", "setViewControllers"]
+- ["PSo26NSExtensionRequestHandling", "showGameScene"]
+- ["PSo26NSExtensionRequestHandling", "showParentView"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "DEBUG_SCENEKIT_GAMESCENE"]
+- ["CSo8NSObject", "GameScene"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "ParentViewController"]
+- ["CSo8NSObject", "SKTransition"]
+- ["CSo8NSObject", "SceneController"]
+- !private ["CSo8NSObject", "SegueKey"]
+- !private ["CSo8NSObject", "StoryboardKey"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UINavigationController"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "User"]
+- ["CSo8NSObject", "checkLandingState"]
+- !private ["CSo8NSObject", "childViewController"]
+- !private ["CSo8NSObject", "childViewControllers"]
+- !private ["CSo8NSObject", "classForCoder"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didFinishLaunchingWithOptions"]
+- ["CSo8NSObject", "didPresentParentView"]
+- !private ["CSo8NSObject", "fadeWithDuration"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- !private ["CSo8NSObject", "kTransitionFadeParentInDuration"]
+- ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo8NSObject", "parentSceneView"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "rootViewController"]
+- ["CSo8NSObject", "sceneControl"]
+- !private ["CSo8NSObject", "setViewControllers"]
+- ["CSo8NSObject", "showGameScene"]
+- ["CSo8NSObject", "showParentView"]
+- !private ["CSo8NSObject", "storyboard"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo16NSObjectProtocol", "GameScene"]
+- !private ["PSo16NSObjectProtocol", "ParentViewController"]
+- !private ["PSo16NSObjectProtocol", "SKTransition"]
+- ["PSo16NSObjectProtocol", "SceneController"]
+- !private ["PSo16NSObjectProtocol", "SegueKey"]
+- !private ["PSo16NSObjectProtocol", "StoryboardKey"]
+- !private ["PSo16NSObjectProtocol", "User"]
+- ["PSo16NSObjectProtocol", "checkLandingState"]
+- !private ["PSo16NSObjectProtocol", "childViewController"]
+- !private ["PSo16NSObjectProtocol", "childViewControllers"]
+- !private ["PSo16NSObjectProtocol", "classForCoder"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didFinishLaunchingWithOptions"]
+- ["PSo16NSObjectProtocol", "didPresentParentView"]
+- !private ["PSo16NSObjectProtocol", "fadeWithDuration"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "kTransitionFadeParentInDuration"]
+- ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo16NSObjectProtocol", "parentSceneView"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "rootViewController"]
+- ["PSo16NSObjectProtocol", "sceneControl"]
+- !private ["PSo16NSObjectProtocol", "setViewControllers"]
+- ["PSo16NSObjectProtocol", "showGameScene"]
+- ["PSo16NSObjectProtocol", "showParentView"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["C16SceneKitTemplate15ParentSceneView", "deinit"]
+- !private ["C16SceneKitTemplate20ParentViewController", "childViewController"]
+- !private ["C16SceneKitTemplate20ParentViewController", "classForCoder"]
+- !private ["C16SceneKitTemplate20ParentViewController", "parentSceneView"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps16RawRepresentable", "ParentView"]
+- !private ["Ps16RawRepresentable", "ReplaceGameHUD"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- ["C16SceneKitTemplate24RootNavigationController", "AnyObject"]
+- ["C16SceneKitTemplate24RootNavigationController", "Bool"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "DEBUG_SCENEKIT_GAMESCENE"]
+- ["C16SceneKitTemplate24RootNavigationController", "GameScene"]
+- ["C16SceneKitTemplate24RootNavigationController", "NSObject"]
+- ["C16SceneKitTemplate24RootNavigationController", "ParentViewController"]
+- ["C16SceneKitTemplate24RootNavigationController", "SKTransition"]
+- ["C16SceneKitTemplate24RootNavigationController", "SceneController"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "SegueKey"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "StoryboardKey"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "String"]
+- ["C16SceneKitTemplate24RootNavigationController", "UINavigationController"]
+- ["C16SceneKitTemplate24RootNavigationController", "UIViewController"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "User"]
+- ["C16SceneKitTemplate24RootNavigationController", "checkLandingState"]
+- ["C16SceneKitTemplate24RootNavigationController", "deinit"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "delegate"]
+- ["C16SceneKitTemplate24RootNavigationController", "didFinishLaunchingWithOptions"]
+- ["C16SceneKitTemplate24RootNavigationController", "didPresentParentView"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "fatalError"]
+- ["C16SceneKitTemplate24RootNavigationController", "init"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "kTransitionFadeParentInDuration"]
+- ["C16SceneKitTemplate24RootNavigationController", "navigationController"]
+- ["C16SceneKitTemplate24RootNavigationController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["C16SceneKitTemplate24RootNavigationController", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "print"]
+- ["C16SceneKitTemplate24RootNavigationController", "rootViewController"]
+- ["C16SceneKitTemplate24RootNavigationController", "sceneControl"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "setViewControllers"]
+- ["C16SceneKitTemplate24RootNavigationController", "showGameScene"]
+- ["C16SceneKitTemplate24RootNavigationController", "showParentView"]
+- !private ["C16SceneKitTemplate24RootNavigationController", "storyboard"]
+- ["C16SceneKitTemplate24RootNavigationController", "viewDidLoad"]
+- !private ["CSo8SCNScene", "init"]
+- !private ["CSo12SKTransition", "fadeWithDuration"]
+- !private ["C16SceneKitTemplate15SceneController", "delegate"]
+- ["C16SceneKitTemplate15SceneController", "sharedInstance"]
+- !private ["C16SceneKitTemplate15SceneController", "showSceneWithTransition"]
+- !private ["C16SceneKitTemplate15SceneController", "userIsAuthenticated"]
+- !private ["O16SceneKitTemplate8SegueKey", "ReplaceGameHUD"]
+- !private ["O16SceneKitTemplate8SegueKey", "deinit"]
+- !private ["O16SceneKitTemplate8SegueKey", "rawValue"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["O16SceneKitTemplate13StoryboardKey", "ParentView"]
+- !private ["O16SceneKitTemplate13StoryboardKey", "deinit"]
+- !private ["O16SceneKitTemplate13StoryboardKey", "rawValue"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["PSo21UIAppearanceContainer", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo21UIAppearanceContainer", "GameScene"]
+- !private ["PSo21UIAppearanceContainer", "ParentViewController"]
+- !private ["PSo21UIAppearanceContainer", "SKTransition"]
+- ["PSo21UIAppearanceContainer", "SceneController"]
+- !private ["PSo21UIAppearanceContainer", "SegueKey"]
+- !private ["PSo21UIAppearanceContainer", "StoryboardKey"]
+- !private ["PSo21UIAppearanceContainer", "User"]
+- ["PSo21UIAppearanceContainer", "checkLandingState"]
+- !private ["PSo21UIAppearanceContainer", "childViewController"]
+- !private ["PSo21UIAppearanceContainer", "childViewControllers"]
+- !private ["PSo21UIAppearanceContainer", "classForCoder"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didFinishLaunchingWithOptions"]
+- ["PSo21UIAppearanceContainer", "didPresentParentView"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kTransitionFadeParentInDuration"]
+- ["PSo21UIAppearanceContainer", "navigationController"]
+- ["PSo21UIAppearanceContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo21UIAppearanceContainer", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo21UIAppearanceContainer", "parentSceneView"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "rootViewController"]
+- ["PSo21UIAppearanceContainer", "sceneControl"]
+- !private ["PSo21UIAppearanceContainer", "setViewControllers"]
+- ["PSo21UIAppearanceContainer", "showGameScene"]
+- ["PSo21UIAppearanceContainer", "showParentView"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo18UIContentContainer", "GameScene"]
+- !private ["PSo18UIContentContainer", "ParentViewController"]
+- !private ["PSo18UIContentContainer", "SKTransition"]
+- ["PSo18UIContentContainer", "SceneController"]
+- !private ["PSo18UIContentContainer", "SegueKey"]
+- !private ["PSo18UIContentContainer", "StoryboardKey"]
+- !private ["PSo18UIContentContainer", "User"]
+- ["PSo18UIContentContainer", "checkLandingState"]
+- !private ["PSo18UIContentContainer", "childViewController"]
+- !private ["PSo18UIContentContainer", "childViewControllers"]
+- !private ["PSo18UIContentContainer", "classForCoder"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- ["PSo18UIContentContainer", "didFinishLaunchingWithOptions"]
+- ["PSo18UIContentContainer", "didPresentParentView"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "kTransitionFadeParentInDuration"]
+- ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIContentContainer", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo18UIContentContainer", "parentSceneView"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "rootViewController"]
+- ["PSo18UIContentContainer", "sceneControl"]
+- !private ["PSo18UIContentContainer", "setViewControllers"]
+- ["PSo18UIContentContainer", "showGameScene"]
+- ["PSo18UIContentContainer", "showParentView"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo18UIFocusEnvironment", "GameScene"]
+- !private ["PSo18UIFocusEnvironment", "ParentViewController"]
+- !private ["PSo18UIFocusEnvironment", "SKTransition"]
+- ["PSo18UIFocusEnvironment", "SceneController"]
+- !private ["PSo18UIFocusEnvironment", "SegueKey"]
+- !private ["PSo18UIFocusEnvironment", "StoryboardKey"]
+- !private ["PSo18UIFocusEnvironment", "User"]
+- ["PSo18UIFocusEnvironment", "checkLandingState"]
+- !private ["PSo18UIFocusEnvironment", "childViewController"]
+- !private ["PSo18UIFocusEnvironment", "childViewControllers"]
+- !private ["PSo18UIFocusEnvironment", "classForCoder"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didFinishLaunchingWithOptions"]
+- ["PSo18UIFocusEnvironment", "didPresentParentView"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kTransitionFadeParentInDuration"]
+- ["PSo18UIFocusEnvironment", "navigationController"]
+- ["PSo18UIFocusEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIFocusEnvironment", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo18UIFocusEnvironment", "parentSceneView"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "rootViewController"]
+- ["PSo18UIFocusEnvironment", "sceneControl"]
+- !private ["PSo18UIFocusEnvironment", "setViewControllers"]
+- ["PSo18UIFocusEnvironment", "showGameScene"]
+- ["PSo18UIFocusEnvironment", "showParentView"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo22UINavigationController", "AnyObject"]
+- ["CSo22UINavigationController", "Bool"]
+- !private ["CSo22UINavigationController", "DEBUG_SCENEKIT_GAMESCENE"]
+- ["CSo22UINavigationController", "GameScene"]
+- ["CSo22UINavigationController", "NSObject"]
+- ["CSo22UINavigationController", "ParentViewController"]
+- ["CSo22UINavigationController", "SKTransition"]
+- ["CSo22UINavigationController", "SceneController"]
+- !private ["CSo22UINavigationController", "SegueKey"]
+- !private ["CSo22UINavigationController", "StoryboardKey"]
+- !private ["CSo22UINavigationController", "String"]
+- ["CSo22UINavigationController", "UINavigationController"]
+- ["CSo22UINavigationController", "UIViewController"]
+- !private ["CSo22UINavigationController", "User"]
+- ["CSo22UINavigationController", "checkLandingState"]
+- !private ["CSo22UINavigationController", "delegate"]
+- ["CSo22UINavigationController", "didFinishLaunchingWithOptions"]
+- ["CSo22UINavigationController", "didPresentParentView"]
+- !private ["CSo22UINavigationController", "fatalError"]
+- ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "kTransitionFadeParentInDuration"]
+- ["CSo22UINavigationController", "navigationController"]
+- ["CSo22UINavigationController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo22UINavigationController", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo22UINavigationController", "print"]
+- ["CSo22UINavigationController", "rootViewController"]
+- ["CSo22UINavigationController", "sceneControl"]
+- !private ["CSo22UINavigationController", "setViewControllers"]
+- ["CSo22UINavigationController", "showGameScene"]
+- ["CSo22UINavigationController", "showParentView"]
+- !private ["CSo22UINavigationController", "storyboard"]
+- ["CSo22UINavigationController", "viewDidLoad"]
+- ["CSo22UINavigationController", ""]
+- !private ["PSo30UINavigationControllerDelegate", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo30UINavigationControllerDelegate", "GameScene"]
+- !private ["PSo30UINavigationControllerDelegate", "ParentViewController"]
+- !private ["PSo30UINavigationControllerDelegate", "SKTransition"]
+- ["PSo30UINavigationControllerDelegate", "SceneController"]
+- !private ["PSo30UINavigationControllerDelegate", "SegueKey"]
+- !private ["PSo30UINavigationControllerDelegate", "StoryboardKey"]
+- !private ["PSo30UINavigationControllerDelegate", "User"]
+- !private ["PSo30UINavigationControllerDelegate", "checkLandingState"]
+- !private ["PSo30UINavigationControllerDelegate", "delegate"]
+- !private ["PSo30UINavigationControllerDelegate", "didPresentParentView"]
+- !private ["PSo30UINavigationControllerDelegate", "fatalError"]
+- !private ["PSo30UINavigationControllerDelegate", "kTransitionFadeParentInDuration"]
+- ["PSo30UINavigationControllerDelegate", "navigationController"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo30UINavigationControllerDelegate", "print"]
+- !private ["PSo30UINavigationControllerDelegate", "rootViewController"]
+- !private ["PSo30UINavigationControllerDelegate", "sceneControl"]
+- !private ["PSo30UINavigationControllerDelegate", "setViewControllers"]
+- !private ["PSo30UINavigationControllerDelegate", "showGameScene"]
+- !private ["PSo30UINavigationControllerDelegate", "showParentView"]
+- !private ["PSo30UINavigationControllerDelegate", "storyboard"]
+- ["PSo30UINavigationControllerDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "DEBUG_SCENEKIT_GAMESCENE"]
+- ["CSo11UIResponder", "GameScene"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "ParentViewController"]
+- ["CSo11UIResponder", "SKTransition"]
+- ["CSo11UIResponder", "SceneController"]
+- !private ["CSo11UIResponder", "SegueKey"]
+- !private ["CSo11UIResponder", "StoryboardKey"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UINavigationController"]
+- ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "User"]
+- ["CSo11UIResponder", "checkLandingState"]
+- !private ["CSo11UIResponder", "childViewController"]
+- !private ["CSo11UIResponder", "childViewControllers"]
+- !private ["CSo11UIResponder", "classForCoder"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didFinishLaunchingWithOptions"]
+- ["CSo11UIResponder", "didPresentParentView"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kTransitionFadeParentInDuration"]
+- ["CSo11UIResponder", "navigationController"]
+- ["CSo11UIResponder", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo11UIResponder", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo11UIResponder", "parentSceneView"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "sceneControl"]
+- !private ["CSo11UIResponder", "setViewControllers"]
+- ["CSo11UIResponder", "showGameScene"]
+- ["CSo11UIResponder", "showParentView"]
+- !private ["CSo11UIResponder", "storyboard"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo16UIStateRestoring", "GameScene"]
+- !private ["PSo16UIStateRestoring", "ParentViewController"]
+- !private ["PSo16UIStateRestoring", "SKTransition"]
+- ["PSo16UIStateRestoring", "SceneController"]
+- !private ["PSo16UIStateRestoring", "SegueKey"]
+- !private ["PSo16UIStateRestoring", "StoryboardKey"]
+- !private ["PSo16UIStateRestoring", "User"]
+- ["PSo16UIStateRestoring", "checkLandingState"]
+- !private ["PSo16UIStateRestoring", "childViewController"]
+- !private ["PSo16UIStateRestoring", "childViewControllers"]
+- !private ["PSo16UIStateRestoring", "classForCoder"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- ["PSo16UIStateRestoring", "didFinishLaunchingWithOptions"]
+- ["PSo16UIStateRestoring", "didPresentParentView"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "kTransitionFadeParentInDuration"]
+- ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16UIStateRestoring", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo16UIStateRestoring", "parentSceneView"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "rootViewController"]
+- ["PSo16UIStateRestoring", "sceneControl"]
+- !private ["PSo16UIStateRestoring", "setViewControllers"]
+- ["PSo16UIStateRestoring", "showGameScene"]
+- ["PSo16UIStateRestoring", "showParentView"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "DEBUG_SCENEKIT_GAMESCENE"]
+- !private ["PSo18UITraitEnvironment", "GameScene"]
+- !private ["PSo18UITraitEnvironment", "ParentViewController"]
+- !private ["PSo18UITraitEnvironment", "SKTransition"]
+- ["PSo18UITraitEnvironment", "SceneController"]
+- !private ["PSo18UITraitEnvironment", "SegueKey"]
+- !private ["PSo18UITraitEnvironment", "StoryboardKey"]
+- !private ["PSo18UITraitEnvironment", "User"]
+- ["PSo18UITraitEnvironment", "checkLandingState"]
+- !private ["PSo18UITraitEnvironment", "childViewController"]
+- !private ["PSo18UITraitEnvironment", "childViewControllers"]
+- !private ["PSo18UITraitEnvironment", "classForCoder"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didFinishLaunchingWithOptions"]
+- ["PSo18UITraitEnvironment", "didPresentParentView"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kTransitionFadeParentInDuration"]
+- ["PSo18UITraitEnvironment", "navigationController"]
+- ["PSo18UITraitEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UITraitEnvironment", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo18UITraitEnvironment", "parentSceneView"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "rootViewController"]
+- ["PSo18UITraitEnvironment", "sceneControl"]
+- !private ["PSo18UITraitEnvironment", "setViewControllers"]
+- ["PSo18UITraitEnvironment", "showGameScene"]
+- ["PSo18UITraitEnvironment", "showParentView"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "DEBUG_SCENEKIT_GAMESCENE"]
+- ["CSo16UIViewController", "GameScene"]
+- ["CSo16UIViewController", "NSObject"]
+- ["CSo16UIViewController", "ParentViewController"]
+- ["CSo16UIViewController", "SKTransition"]
+- ["CSo16UIViewController", "SceneController"]
+- !private ["CSo16UIViewController", "SegueKey"]
+- !private ["CSo16UIViewController", "StoryboardKey"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UINavigationController"]
+- ["CSo16UIViewController", "UIViewController"]
+- !private ["CSo16UIViewController", "User"]
+- ["CSo16UIViewController", "checkLandingState"]
+- !private ["CSo16UIViewController", "childViewController"]
+- !private ["CSo16UIViewController", "childViewControllers"]
+- !private ["CSo16UIViewController", "classForCoder"]
+- !private ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "didFinishLaunchingWithOptions"]
+- ["CSo16UIViewController", "didPresentParentView"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "kTransitionFadeParentInDuration"]
+- ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo16UIViewController", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo16UIViewController", "parentSceneView"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "rootViewController"]
+- ["CSo16UIViewController", "sceneControl"]
+- !private ["CSo16UIViewController", "setViewControllers"]
+- ["CSo16UIViewController", "showGameScene"]
+- ["CSo16UIViewController", "showParentView"]
+- !private ["CSo16UIViewController", "storyboard"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["C16SceneKitTemplate4User", "signInAnonymously"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "C16SceneKitTemplate9GameScene"
+- !private "O16SceneKitTemplate13GameSceneType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "C16SceneKitTemplate15ParentSceneView"
+- !private "C16SceneKitTemplate20ParentViewController"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- "C16SceneKitTemplate24RootNavigationController"
+- !private "CSo8SCNScene"
+- !private "CSo12SKTransition"
+- "C16SceneKitTemplate15SceneController"
+- !private "O16SceneKitTemplate8SegueKey"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "O16SceneKitTemplate13StoryboardKey"
+- !private "Ps10Strideable"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo22UINavigationController"
+- "PSo30UINavigationControllerDelegate"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "C16SceneKitTemplate4User"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/voxels/Documents/Scrap/Aiko_Swift/Aiko/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Pods/Firebase/Headers/Firebase.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/voxels/Dropbox/Current/SceneKit/SceneKitTemplate/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "7bee7dc9be5e966447e7a0ac5ec40abf"
